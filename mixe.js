@@ -25,12 +25,13 @@ function newGame(){
     ins += `<td>${worlds[i]}</td>`;
   }
   box.innerHTML = ins;
+  document.getElementById('inp').value = "";
 }
 
 //verifie si c'est juste
 btt.addEventListener('click',function(){
   let answer = document.getElementById('inp').value;
-  if (answer == w){
+  if (answer.toLowerCase() == w.toLowerCase()){
     alert("bonne reponse");
     newGame();
 

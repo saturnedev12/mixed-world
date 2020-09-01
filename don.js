@@ -1,5 +1,9 @@
 var data = [
   'saturne',
   'mouton',
-  'chien'
+  'chien',
+  'chat',
+  'lion',
+  'cadavre',
+  'singe',
 ];
